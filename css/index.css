@@ -1,0 +1,193 @@
+@charset "UTF-8";
+.activity{
+    position: relative;
+}
+.activity a{
+    background: url("../images/baner.jpg") no-repeat center top;
+    height: 604px;
+    width: 100%;
+    position: absolute;
+    /*z-index: 2;*/
+    top: 0;
+    left: 0;
+    color: #666;
+    text-decoration: none;
+}
+.main{
+    height: 626px;
+    position: relative;
+}
+.slider{
+    width: 748px;
+    height: 453px;
+    margin: 12px 0 0 212px;
+    background-color: #0a8ddf;
+    float: left;
+    position: relative;
+}
+.slider img{
+    width: 748px;
+    height: 453px;
+}
+.slider .circle{
+    position: absolute;
+    bottom: 8px;
+    left: 50%;
+    /*(18+4)*6=132; 132/2=66*/
+    margin-left: -70px;
+    cursor: pointer;
+}
+.circle li{
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    float: left;
+    background-color: #3e3e3e;
+    text-align: center;
+    margin: 0 2px;
+    line-height: 18px;
+    color: white;
+}
+.circle li.current{
+    background-color: #B61b1f;
+}
+.arrow-l, .arrow-r{
+    position: absolute;
+    width: 28px;
+    height: 62px;
+    background-color: pink;
+    top: 50%;
+    margin-top: -31px;
+    color: white;
+    font: 500 20px/62px "宋体";
+    text-align: center;
+    background: rgba(0,0,0,.3);
+}
+.arrow-l{
+    left: 0;
+}
+.arrow-r{
+    right: 0;
+}
+.arrow-l：hover, .arrow-r:hover{
+    background: rgba(0,0,0,.5);
+}
+.news{
+    width: 240px;
+    height: 451px;
+    border: 1px solid #e4e4e4;
+    float: right;
+    margin: 4px 1px 0 5px;
+}
+.news .mt{
+    height: 32px;
+    line-height: 32px;
+    padding: 0 15px;
+    border-bottom: 1px dotted #E8E8E7;
+}
+.news .mtt{
+    height: 32px;
+    line-height: 32px;
+    padding: 0 15px;
+    border-bottom: 1px dotted #E8E8E7;
+    border-top: 1px solid #E8E8E7;
+}
+.news h2{
+    float: left;
+    font: 400 16px/32px "Microsoft YaHei";
+}
+.extra{
+    float: right;
+    font-family: consolas;
+}
+.news .mc{
+    height: 120px;
+    padding: 8px 0 0 15px;
+}
+.news .dd li{
+    width: 59px;
+    height: 70px;
+    border: 1px solid #e4e4e4;
+    border-top: 1px dotted #E8E8E7;
+    float: left;
+    margin: 0 0 0 -1px;
+}
+.news .dd li a{
+    display: block;
+    height: 70px;
+    text-align: center;
+    padding-top: 45px;
+    position: relative;
+}
+.news .dd ul li a i{
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    top: 12px;
+    left: 16px;
+    background: url("../images/icon_lifeserv.png") no-repeat right top;
+}
+.news .dd ul li .song{
+    background: url("../images/song.png") no-repeat right top;
+}
+.news .jjj a img{
+    width: 240px;
+    height: 40px;
+    margin-top: 3px;
+}
+.mc ul li{
+    height: 24px;
+    line-height: 24px;
+    width: 210px;
+}
+.mc ul li a span{
+    font-weight: 700;
+    margin-right: 5px;
+}
+
+
+
+/*nav底部开始*/
+.todays{
+    position: relative;
+    z-index:3;
+    bottom: -465px;
+    height: 129px;
+    margin: 10px 0 20px;
+}
+.todays .mt{
+    float: left;
+}
+.todays .mt a img{
+    position: absolute;
+    display: block;
+    width: 200px;
+    height: 138px;
+    left: 0px;
+}
+.todays .mc{
+    left: 200px;
+    position: absolute;
+    height: 150px;
+    width: 1000px;
+}
+.todays .mc li{
+    float: left;
+    margin-left: 3px;
+    width: 245px;
+}
+
+.todays .mc a img{
+    display: block;
+    width: 240px;
+    height: 150px;
+    margin-left: 3px;
+}
+
+
+
+
+
+
+
+
